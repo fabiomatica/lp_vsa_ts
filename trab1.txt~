@@ -1,0 +1,69 @@
+
+Trabalho 1
+
+
+Luis Paulo - LP
+
+Vitor - VSA
+
+
+DATA	"TEMPO TRABALHADO"	"QUEM TRABALHOU"	"TIPO DE TAREFA"		"DESCRICAO DA TAREFA"
+
+24/08	01:00			LP			Estudar				Compreensao da descricao do trabalho
+
+27/08	01:00			VSA			Estudar				Compreensao da descricao do trabalho
+
+27/08	02:00			LP			Redigir a Especificacao		Exercicio 1 e 2
+
+27/08	02:00			VSA			Redigir a Especificacao		Exercicio 1 e 2
+
+
+
+
+1)
+
+	A empresa "Vaga Incerta", observando a dificuldade de alguns motoristas em encontrar vagas para estacionar nas proximidades em que se encontram, percebem que esta pode ser uma boa oportunidade de investir.
+O objetivo seria desenvolver um aplicativo para celulares inteligentes para resolver esse problema.
+
+A empresa propõe um sistema capaz de informar aos motoristas estacionamentos num raio de `x`km em que se encontra no momento e quantas vagas livres há em cada um deles. A aplicativo também seria capaz de dizer qual é o estacionamento que possui vagas mais proximo.
+
+O aplicativo informaria se o estacionamento é de rua ou de garagem e se é coberto ou nao. Através dele seria possivel saber o valor/hora do aluguel de uma vaga.
+
+Caso for interesse do motorista, ele poderia tambem filtrar estacionamentos por empresas controladoras e saber que serviços adicionais o estacionamento presta, tais como manobrista, lava-jato, e outros mais.
+
+
+
+2)VSA
+
+Caracteristicas:
+
+i) Sistema informa estacionamentos num raio de x km;
+ii) Sistema informa numero de vagas disponiveis;
+iii) Sistema informa tipo de estacionamento (de rua ou de garagem);
+iv) Sistema informa valor/hora do aluguel de vagas;
+
+. sistema informa empresa controladora do estacionamento;
+. sistema informa o estacionamento mais proximo com vagas;
+. Sistema possibilita filtragem por empresa controladora;
+. sistema informa se estacionamento é coberto ou nao;
+. sistema informa se estacionamento possui servicos adicionais, como manobrista, lava-jato, etc;
+
+
+
+3)LP
+
+
+4)LP
+
+
+5)VSA e LP
+
+
+6)LP
+
+
+7)VSA
+
+
+8)LP
+
