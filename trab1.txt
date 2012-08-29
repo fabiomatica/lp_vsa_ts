@@ -1,4 +1,3 @@
-
 Trabalho 1
 ----------------------------------------------------------
 
@@ -48,6 +47,17 @@ i) Sistema informa estacionamentos num raio de x km;
 ii) Sistema informa numero de vagas disponiveis;
 iii) Sistema informa tipo de estacionamento (de rua ou de garagem);
 iv) Sistema informa valor/hora do aluguel de vagas;
+
+Historietas:
+i) O aplicativo identificará as coordenadas geográficas do usuário, utilizando o recurso de 
+GPS do celular. Assumindo que a base de dados atualiza as informações a cada 5 minutos, será possivel informar
+quais estacionamentos encontram-se num raio de x km.
+
+ii)...
+
+iii)...
+
+iv)...
 
 . sistema informa empresa controladora do estacionamento;
 . sistema informa o estacionamento mais proximo com vagas;
