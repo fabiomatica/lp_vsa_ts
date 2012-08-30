@@ -2,7 +2,7 @@ Trabalho 1
 ----------------------------------------------------------
 
 Luis Paulo - LP
-Vitor - VSA
+Vitor Silva de Almeida Araújo - VSA
 ----------------------------------------------------------
 
 DT - Data
@@ -24,24 +24,28 @@ DT		TT		QT	TDT						DDT
 
 28/08	01:00	LP	Redigir a Especificacao	Exercicio 3
 
+30/09	01:00	VSA	Redigir as Características (Historietas)	Adicionei as Características (historietas) ao trabalho 
+
 ----------------------------------------------------------
 
-1)
+1)( LP / VSA ) Especificação
 
 	A empresa "Vaga Incerta", observando a dificuldade de alguns motoristas em encontrar vagas para estacionar nas proximidades em que se encontram, percebem que esta pode ser uma boa oportunidade de investir.
 O objetivo seria desenvolver um aplicativo para celulares inteligentes para resolver esse problema.
 
-A empresa propõe um sistema capaz de informar aos motoristas estacionamentos num raio de `x`km em que se encontra no momento e quantas vagas livres há em cada um deles. A aplicativo também seria capaz de dizer qual é o estacionamento que possui vagas mais proximo.
+A empresa propõe um sistema capaz de informar aos motoristas estacionamentos num raio de `x`km em que se encontra no momento e quantas vagas livres há em cada um deles.
 
-O aplicativo informaria se o estacionamento é de rua ou de garagem e se é coberto ou nao. Através dele seria possivel saber o valor/hora do aluguel de uma vaga.
+O aplicativo também seria capaz de dizer qual é o estacionamento que possui vagas mais proximo.
+
+O aplicativo informaria se o estacionamento é de rua ou de garagem e se é coberto ou nao. 
+
+Através dele seria possivel saber o valor/hora do aluguel de uma vaga.
 
 Caso for interesse do motorista, ele poderia tambem filtrar estacionamentos por empresas controladoras e saber que serviços adicionais o estacionamento presta, tais como manobrista, lava-jato, e outros mais.
 
 ----------------------------------------------------------
 
-2)VSA
-
-Caracteristicas:
+2)(VSA) Características:
 
 i) Sistema informa estacionamentos num raio de x km;
 ii) Sistema informa numero de vagas disponiveis;
@@ -50,14 +54,14 @@ iv) Sistema informa valor/hora do aluguel de vagas;
 
 Historietas:
 i) O aplicativo identificará as coordenadas geográficas do usuário, utilizando o recurso de 
-GPS do celular. Assumindo que a base de dados atualiza as informações a cada 5 minutos, será possivel informar
-quais estacionamentos encontram-se num raio de x km.
+GPS do celular. Assumindo que a base de dados atualiza as informações a cada minuto, será possivel informar
+quais estacionamentos encontram-se num raio de x km. (linha 34).
 
-ii)... teste
+ii) Com as informações referente a localização do usuário já coletadas, o aplicativo consegue informar a quantidade de vagas disponíveis em todas as empresas cadastradas no sistema. (linha 36).
 
-iii)...
+iii) As empresa de estacionamento cadastra informarão ao sistema os tipos de vagas que são oferecidas, se são de rua ou de garaguem, se são cobertas ou ao ar livre. Esta informação aparecerá ao cliente quando pesquisar as vagas disponíveis mais próximas. (linha 38).
 
-iv)...
+iv) As empresas de estacionamento cadastradas informarão ao sistema os valores por hora de aluguel de vagas. Esta informação aparecerá ao cliente quando pesquisar as vagas disponíveis mais próximas. (linha 40).
 
 . sistema informa empresa controladora do estacionamento;
 . sistema informa o estacionamento mais proximo com vagas;
