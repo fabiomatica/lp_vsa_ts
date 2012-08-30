@@ -74,10 +74,10 @@ iv)...
 	iii) Tem como saber se o estacionamento eh coberto ou nao?
 	iv) Posso buscar um estacionamento proximo que possua o servico X ?
 . Criterios de Verificacao segundo testador
-	i) Eh possivel obter, em tempo real, o numero de vagas disponiveis em cada estacionamento?
-	ii) Conseguimos saber onde se encontra o motorista no momento da requisicao?
-	iii) Temos as informacoes de todos os estacionamentos?
-	iv) Como podemos enviar as informacoes para o motorista ?
+	v) Eh possivel obter, em tempo real, o numero de vagas disponiveis em cada estacionamento?
+	vi) Conseguimos saber onde se encontra o motorista no momento da requisicao?
+	vii) Temos as informacoes de todos os estacionamentos?
+	viii) Como podemos enviar as informacoes para o motorista?
 
 ----------------------------------------------------------
 
