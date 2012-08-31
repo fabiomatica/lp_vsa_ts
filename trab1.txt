@@ -59,7 +59,9 @@ i) O aplicativo identificará as coordenadas geográficas do usuário, utilizand
 
 ii) Com as informações referente a localização do usuário já coletadas, o aplicativo consegue informar a quantidade de vagas disponíveis em todas as empresas cadastradas no sistema. (linha 36).
 
-iii) As empresa de estacionamento cadastra informarão ao sistema os tipos de vagas que são oferecidas, se são de rua ou de garaguem, se são cobertas ou ao ar livre. Esta informação aparecerá ao cliente quando pesquisar as vagas disponíveis mais próximas. (linha 38).
+
+/************ LP - Tem como incluir aqui os servicos que ele presta ? Pq preciso encaichar o criterio dos servicos em algum, se der... se nao... criterio 4
+iii) As empresa de estacionamento cadastra informarão ao sistema os tipos de vagas que são oferecidas, se são de rua ou de garagem, se são cobertas ou ao ar livre. Esta informação aparecerá ao cliente quando pesquisar as vagas disponíveis mais próximas. (linha 38).
 
 iv) As empresas de estacionamento cadastradas informarão ao sistema os valores por hora de aluguel de vagas. Esta informação aparecerá ao cliente quando pesquisar as vagas disponíveis mais próximas. (linha 40).
 
@@ -73,33 +75,33 @@ iv) As empresas de estacionamento cadastradas informarão ao sistema os valores 
 
 3)LP
 . Criterios de Verificacao segundo usuario
-	i) Identificar estacionamentos proximos ao motorista que possuem vagas.
-		Porque eh relevante: Saber se existe algum(s) estacionamento(s) nao eh importante se nao trouxer as informacoes referentes as vagas. Nao eh possivel estacionar em um estacionamento sem vaga.
-	ii) Identificar cada estacionamento com de rua ou de garagem.
+	i) Identifica todos os estacionamentos proximos ao motorista que possuem vagas?
+		Porque eh relevante: Saber se existe algum(s) estacionamento(s) nao eh importante se nao trouxer as informacoes referentes as vagas. Nao eh possivel estacionar em um estacionamento sem vaga. Portanto o sistema precisa mineirar essas informacoes para selecionar apenas aqueles que se encaixam no requisito.
+	ii) Identifica se um estacionamento eh de rua ou de garagem?
 		Porque eh relevante: Certas pessoas associam essas caracteristicas com o fator de seguranca, sendo mais facil o controle em uma garagem.
-	iii) Informar se estacionamento eh aberto ou coberto
+	iii) Informa se estacionamento eh aberto ou coberto?
 		Porque eh relevante: Muita gente gosta de manter seus carros limpos, portanto, evitando sujeiras, inteimperies, queimacao da pintura.
-	iv) Informar que servicos o estacionamento fornece.
+	iv) Informa que servicos o estacionamento fornece?
 		Porque eh relevante: Pode ser importante ter servicos como cera, lava-jato, etc.
 . Criterios de Verificacao segundo testador
-	v) Saber, em tempo real, o numero de vagas disponiveis em cada estacionamento.
+	v) Sabe, em tempo real, o numero de vagas disponiveis em cada estacionamento?
 		Porque eh relevante: Os motoristas precisam saber se existe alguma vaga em um determinado momento. Delays farao das informacoes, imprecisas.
-	vi) Saber onde se encontra o motorista no momento da requisicao.
+	vi) Sabe onde se encontra o motorista no momento da requisicao?
 		Porque eh relevante: Para que possam ser processadas as buscas no sistema por estacionamentos proximos ao local em que se encontra o motorista, eh necessario saber a localizacao, se nao exata, pelo menos aproximada em que esse se encontra.
-	vii) Possuir um banco de dados consideravel sobre estacionamentos.
+	vii) Possui um banco de dados consideravel sobre estacionamentos?
 		Porque eh relevante: Quanto maior for o banco de dados sobre estacionamentos, maior a eficiencia do sistema.
-	viii) Enviar as informacoes para o motorista com eficacia e eficiencia.
+	viii) Envia as informacoes para o motorista com eficacia e eficiencia?
 		Porque eh relevante: Questoes de velocidade de envio, quantidade de informacoes a serem enviadas, como essas informacoes serao enviadas, questoes como essas sao muito importantes ao se projetar o sistema.
 
 ----------------------------------------------------------
 
-4)
+4) LP
 
 H - Historieta
 C - Criterio
 
 . Hi
-	Ci:
+	Ci: 
 	Cii:
 	Ciii:
 	Civ:
