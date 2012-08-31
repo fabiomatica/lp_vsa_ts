@@ -28,6 +28,8 @@ DT		TT		QT	TDT						DDT
 
 30/08	00:45	LP	Redigir a Especificacao	Exercicio 3 (Edicao/Finalizacao do Texto)
 
+30/08	00:30	LP	Redigir a Especificacao Exercicio 4
+
 ----------------------------------------------------------
 
 1)( LP / VSA ) Especificação
