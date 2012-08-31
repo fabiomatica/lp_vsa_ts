@@ -93,7 +93,7 @@ iv) As empresas de estacionamento cadastradas informarão ao sistema os valores 
 
 ----------------------------------------------------------
 
-4)LP
+4)
 
 H - Historieta
 C - Criterio
