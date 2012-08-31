@@ -22,7 +22,7 @@ DT		TT		QT	TDT						DDT
 
 27/08	02:00	VSA	Redigir a Especificacao	Exercicio 1 e 2
 
-28/08	00:45	LP	Redigir a Especificacao	Exercicio 3 (Selecao das Caracteristicas)
+28/08	00:45	LP	Redigir a Especificacao	Exercicio 3 (Selecao dos Criterios)
 
 30/09	01:00	VSA	Redigir as Características (Historietas)	Adicionei as Características (historietas) ao trabalho 
 
@@ -55,9 +55,7 @@ iii) Sistema informa tipo de estacionamento (de rua ou de garagem);
 iv) Sistema informa valor/hora do aluguel de vagas;
 
 Historietas:
-i) O aplicativo identificará as coordenadas geográficas do usuário, utilizando o recurso de 
-GPS do celular. Assumindo que a base de dados atualiza as informações a cada minuto, será possivel informar
-quais estacionamentos encontram-se num raio de x km. (linha 34).
+i) O aplicativo identificará as coordenadas geográficas do usuário, utilizando o recurso de GPS do celular. Assumindo que a base de dados atualiza as informações a cada minuto, será possivel informar quais estacionamentos encontram-se num raio de x km. (linha 34).
 
 ii) Com as informações referente a localização do usuário já coletadas, o aplicativo consegue informar a quantidade de vagas disponíveis em todas as empresas cadastradas no sistema. (linha 36).
 
@@ -75,27 +73,68 @@ iv) As empresas de estacionamento cadastradas informarão ao sistema os valores 
 
 3)LP
 . Criterios de Verificacao segundo usuario
-	i) Consigo saber se existe algum estacionamento com vagas perto de mim?
+	i) Identificar estacionamentos proximos ao motorista que possuem vagas.
 		Porque eh relevante: Saber se existe algum(s) estacionamento(s) nao eh importante se nao trouxer as informacoes referentes as vagas. Nao eh possivel estacionar em um estacionamento sem vaga.
-	ii) Sei se o estacionamento eh de rua ou de garagem?
+	ii) Identificar cada estacionamento com de rua ou de garagem.
 		Porque eh relevante: Certas pessoas associam essas caracteristicas com o fator de seguranca, sendo mais facil o controle em uma garagem.
-	iii) Tem como saber se o estacionamento eh coberto ou nao?
+	iii) Informar se estacionamento eh aberto ou coberto
 		Porque eh relevante: Muita gente gosta de manter seus carros limpos, portanto, evitando sujeiras, inteimperies, queimacao da pintura.
-	iv) Posso buscar um estacionamento proximo que possua o servico X ?
+	iv) Informar que servicos o estacionamento fornece.
 		Porque eh relevante: Pode ser importante ter servicos como cera, lava-jato, etc.
 . Criterios de Verificacao segundo testador
-	v) Eh possivel obter, em tempo real, o numero de vagas disponiveis em cada estacionamento?
+	v) Saber, em tempo real, o numero de vagas disponiveis em cada estacionamento.
 		Porque eh relevante: Os motoristas precisam saber se existe alguma vaga em um determinado momento. Delays farao das informacoes, imprecisas.
-	vi) Conseguimos saber onde se encontra o motorista no momento da requisicao?
+	vi) Saber onde se encontra o motorista no momento da requisicao.
 		Porque eh relevante: Para que possam ser processadas as buscas no sistema por estacionamentos proximos ao local em que se encontra o motorista, eh necessario saber a localizacao, se nao exata, pelo menos aproximada em que esse se encontra.
-	vii) Temos as informacoes de todos os estacionamentos?
+	vii) Possuir um banco de dados consideravel sobre estacionamentos.
 		Porque eh relevante: Quanto maior for o banco de dados sobre estacionamentos, maior a eficiencia do sistema.
-	viii) Como podemos enviar as informacoes para o motorista?
+	viii) Enviar as informacoes para o motorista com eficacia e eficiencia.
 		Porque eh relevante: Questoes de velocidade de envio, quantidade de informacoes a serem enviadas, como essas informacoes serao enviadas, questoes como essas sao muito importantes ao se projetar o sistema.
 
 ----------------------------------------------------------
 
 4)LP
+
+H - Historieta
+C - Criterio
+
+. Hi
+	Ci:
+	Cii:
+	Ciii:
+	Civ:
+	Cv:
+	Cvi:
+	Cvii:
+	Cviii:
+. Hii
+	Ci:
+	Cii:
+	Ciii:
+	Civ:
+	Cv:
+	Cvi:
+	Cvii:
+	Cviii:
+. Hiii
+	Ci:
+	Cii:
+	Ciii:
+	Civ:
+	Cv:
+	Cvi:
+	Cvii:
+	Cviii:
+
+. Hiv
+	Ci:
+	Cii:
+	Ciii:
+	Civ:
+	Cv:
+	Cvi:
+	Cvii:
+	Cviii:
 
 ----------------------------------------------------------
 
