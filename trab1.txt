@@ -99,44 +99,45 @@ iv) As empresas de estacionamento cadastradas informarão ao sistema os valores 
 
 H - Historieta
 C - Criterio
+NSA - Nao se Aplica
 
 . Hi
-	Ci: 
-	Cii:
-	Ciii:
-	Civ:
-	Cv:
-	Cvi:
-	Cvii:
-	Cviii:
+	Ci: OK
+	Cii: NSA
+	Ciii: NSA
+	Civ: NSA
+	Cv: OK
+	Cvi: OK
+	Cvii: OK
+	Cviii: OK
 . Hii
-	Ci:
-	Cii:
-	Ciii:
-	Civ:
-	Cv:
-	Cvi:
-	Cvii:
-	Cviii:
+	Ci: OK
+	Cii: NSA
+	Ciii: NSA
+	Civ: NSA
+	Cv: OK
+	Cvi: NSA
+	Cvii: OK
+	Cviii: OK
 . Hiii
-	Ci:
-	Cii:
-	Ciii:
-	Civ:
-	Cv:
-	Cvi:
-	Cvii:
-	Cviii:
+	Ci: NSA
+	Cii: OK
+	Ciii: OK
+	Civ: NSA
+	Cv: NSA
+	Cvi: NSA
+	Cvii: OK
+	Cviii: OK
 
 . Hiv
-	Ci:
-	Cii:
-	Ciii:
-	Civ:
-	Cv:
-	Cvi:
-	Cvii:
-	Cviii:
+	Ci: NSA
+	Cii: NSA
+	Ciii: NSA
+	Civ: NSA
+	Cv: NSA
+	Cvi: NSA
+	Cvii: OK
+	Cviii: OK
 
 ----------------------------------------------------------
 
